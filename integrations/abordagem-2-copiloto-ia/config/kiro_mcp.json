@@ -1,0 +1,19 @@
+{
+  "_comentario": "Cole este conteúdo em .kiro/settings/mcp.json no seu workspace do Kiro/VS Code.",
+  "_instrucao": "Ajuste o caminho em 'args' para o dist/index.js real no seu computador.",
+
+  "mcpServers": {
+    "frete-tributario": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\philippe.bretas\\Documents\\KIRO REP\\MCP-TRANSPORTATION\\dist\\index.js"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "calcular_carga_tributaria_frete",
+        "consultar_cronograma_transicao",
+        "listar_empresas_cadastradas"
+      ]
+    }
+  }
+}

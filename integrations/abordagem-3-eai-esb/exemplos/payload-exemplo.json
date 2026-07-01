@@ -1,0 +1,58 @@
+{
+  "_descricao": "Exemplos de payload para a integração EAI — mcp-frete-tributario",
+
+  "requisicao_calcular_carga": {
+    "endpoint": "POST /calcular-carga",
+    "body": {
+      "valorFrete": 2340.00,
+      "ufOrigem": "MG",
+      "ufDestino": "SP",
+      "ano": 2028
+    }
+  },
+
+  "resposta_calcular_carga": {
+    "aliquotaNominal": 5.60,
+    "valorIBS": 74.88,
+    "valorCBS": 56.16,
+    "totalNovoRegime": 131.04,
+    "valorICMS": 224.64,
+    "valorPIS": 12.17,
+    "valorCOFINS": 56.16,
+    "totalAntigoRegime": 292.97
+  },
+
+  "mapeamento_campos_CT2": {
+    "CT2_VIBS":  "aliquotaNominal → 74.88",
+    "CT2_VCBS":  "valorCBS        → 56.16",
+    "CT2_ALIBS": "ibs%            → 3.20",
+    "CT2_ALCBS": "cbs%            → 2.40",
+    "CT2_VNOVO": "totalNovoRegime → 131.04",
+    "CT2_VANT":  "totalAntigoRegime → 292.97"
+  },
+
+  "requisicao_cronograma": {
+    "endpoint": "GET /cronograma/2028",
+    "resposta": {
+      "ano": 2028,
+      "icms": 9.6,
+      "iss": 1.6,
+      "pis": 0.52,
+      "cofins": 2.4,
+      "ibs": 3.2,
+      "cbs": 2.4,
+      "totalNovoRegime": 5.6,
+      "totalAntigoRegime": 14.12
+    }
+  },
+
+  "health_check": {
+    "endpoint": "GET /health",
+    "resposta": {
+      "status": "ok",
+      "servidor": "mcp-frete-tributario REST API",
+      "versao": "1.0.0",
+      "anosDisponiveis": [2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033]
+    }
+  }
+}

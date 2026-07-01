@@ -1,0 +1,24 @@
+{
+  "name": "mcp-frete-tributario-rest-api",
+  "version": "1.0.0",
+  "description": "Wrapper HTTP REST para o mcp-frete-tributario — integração com Protheus/AdvPL",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

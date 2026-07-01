@@ -1,0 +1,15 @@
+{
+  "_comentario": "Cole este conteúdo no arquivo claude_desktop_config.json do Claude Desktop.",
+  "_windows_path": "%APPDATA%\\Claude\\claude_desktop_config.json",
+  "_macos_path": "~/Library/Application Support/Claude/claude_desktop_config.json",
+  "_instrucao": "Ajuste o caminho em 'args' para o caminho real do dist/index.js no seu computador.",
+
+  "mcpServers": {
+    "frete-tributario": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\philippe.bretas\\Documents\\KIRO REP\\MCP-TRANSPORTATION\\dist\\index.js"
+      ]
+    }
+  }
+}
