@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "frete-tributario": {
+      "command": "node",
+      "args": ["c:\\Users\\philippe.bretas\\Documents\\KIRO REP\\MCP-TRANSPORTATION-TEST\\dist\\index.js"]
+    }
+  }
+}

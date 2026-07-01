@@ -1,0 +1,44 @@
+[
+  {
+    "razaoSocial": "Transportes Sul Ltda",
+    "cnpj": "12345678000195",
+    "uf": "RS",
+    "valorUltimoFrete": 1850.00
+  },
+  {
+    "razaoSocial": "Logística Paulista S.A.",
+    "cnpj": "98765432000111",
+    "uf": "SP",
+    "valorUltimoFrete": 3200.50
+  },
+  {
+    "razaoSocial": "Fretamento Nordeste Eireli",
+    "cnpj": "11223344000188",
+    "uf": "BA",
+    "valorUltimoFrete": 980.75
+  },
+  {
+    "razaoSocial": "Cargas do Centro-Oeste ME",
+    "cnpj": "55667788000144",
+    "uf": "MT",
+    "valorUltimoFrete": 4500.00
+  },
+  {
+    "razaoSocial": "Amazônia Transportes Ltda",
+    "cnpj": "99887766000122",
+    "uf": "AM",
+    "valorUltimoFrete": 7200.30
+  },
+  {
+    "razaoSocial": "Expresso Mineiro S.A.",
+    "cnpj": "33445566000177",
+    "uf": "MG",
+    "valorUltimoFrete": 2100.00
+  },
+  {
+    "razaoSocial": "Rio Frete e Logística Ltda",
+    "cnpj": "77889900000133",
+    "uf": "RJ",
+    "valorUltimoFrete": 1450.90
+  }
+]
