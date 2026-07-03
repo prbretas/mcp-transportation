@@ -1,7 +1,19 @@
 # Integrações — mcp-frete-tributario com TOTVS Frete Embarcador
 
-Esta pasta contém três abordagens independentes para integrar o mcp-frete-tributario
-ao Protheus TMS / Gestão de Frete Embarcador. Cada uma tem sua pasta, código e documentação própria.
+Esta pasta contém tudo que um desenvolvedor precisa para conectar o mcp-frete-tributario
+ao Protheus TMS, ao GFE ou a qualquer outro sistema.
+
+## Documentação principal
+
+| Documento | Para quem é | O que contém |
+|---|---|---|
+| **[GUIA-INTEGRACAO-TOTVS.md](./GUIA-INTEGRACAO-TOTVS.md)** | Devs TOTVS / equipe Protheus | Passo a passo completo, 4 cenários AdvPL, deploy como serviço Windows, segurança |
+| **[API-REFERENCE.md](./API-REFERENCE.md)** | Qualquer dev integrando | Referência técnica de todos os endpoints, payloads, erros, exemplos em Python/Java/C# |
+
+---
+
+Esta pasta contém também três abordagens independentes de integração.
+Cada uma tem sua pasta, código e documentação própria.
 
 ---
 
