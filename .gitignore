@@ -23,3 +23,6 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Arquivos de estudo pessoal (não versionados)
+COMO-USAR.md
